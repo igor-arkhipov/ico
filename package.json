@@ -1,14 +1,13 @@
 {
-  "name": "@fiahfy/ico",
-  "description": "ICO file format parser and builder",
+  "name": "@igor-arkhipov/ico",
+  "description": "ICO file format parser and builder(fork)",
   "version": "0.0.5",
   "author": {
-    "name": "fiahfy",
-    "email": "d.fiahfy@gmail.com",
-    "url": "https://fiahfy.github.io/"
+    "name": "igor-arkhipov",
+    "url": "https://igor-arkhipov.github.io/"
   },
   "bugs": {
-    "url": "https://github.com/fiahfy/ico/issues"
+    "url": "https://github.com/igor-arkhipov/ico/issues"
   },
   "dependencies": {
     "pngjs": "^6.0.0"
@@ -30,7 +29,7 @@
   "files": [
     "dist"
   ],
-  "homepage": "https://github.com/fiahfy/ico",
+  "homepage": "https://github.com/igor-arkhipov/ico",
   "keywords": [
     "builder",
     "ico",
@@ -43,7 +42,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fiahfy/ico.git"
+    "url": "git+https://github.com/igor-arkhipov/ico.git"
   },
   "scripts": {
     "build": "tsc",

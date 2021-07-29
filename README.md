@@ -2,14 +2,14 @@
 
 # ico
 
-![badge](https://github.com/fiahfy/ico/workflows/Node.js%20Package/badge.svg)
+![badge](https://github.com/igor-arkhipov/ico/workflows/Node.js%20Package/badge.svg)
 
 > [ICO file format](<https://en.wikipedia.org/wiki/ICO_(file_format)>) parser and builder.
 
 ## Installation
 
 ```bash
-npm install @fiahfy/ico
+npm install @igor-arkhipov/ico
 ```
 
 ## Usage
@@ -18,7 +18,7 @@ npm install @fiahfy/ico
 
 ```js
 import fs from 'fs'
-import { Ico } from '@fiahfy/ico'
+import { Ico } from '@igor-arkhipov/ico'
 
 const buf = fs.readFileSync('icon.ico')
 const ico = Ico.from(buf)
@@ -30,7 +30,7 @@ console.log(ico.infoHeaders[0]) // IcoInfoHeader { width: 16, height: 16, ... }
 
 ```js
 import fs from 'fs'
-import { Ico, IcoImage } from '@fiahfy/ico'
+import { Ico, IcoImage } from '@igor-arkhipov/ico'
 
 const ico = new Ico()
 let buf
