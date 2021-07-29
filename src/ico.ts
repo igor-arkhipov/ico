@@ -3,7 +3,7 @@ import { IcoInfoHeader } from './ico-info-header'
 import { IcoImage } from './ico-image'
 
 export class Ico {
-  static readonly supportedIconSizes = [16, 24, 32, 48, 64, 128, 256]
+  static readonly supportedIconSizes = [32]
 
   private _fileHeader: IcoFileHeader
   private _infoHeaders: ReadonlyArray<IcoInfoHeader>
